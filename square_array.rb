@@ -1,9 +1,5 @@
-def square_array(array)
+def square_array(numbers)
   # your code here
-  array_of_squares = []
+  new_numbers = []
   array.each do |element|
-    square = element ^ 2
-    array_of_squares.push(square)
-  end
-  return array_of_squares
-end
+
